@@ -1,0 +1,33 @@
+ Downloading & Installing Microsoft SQL Server
+
+This document summarizes the setup process followed in **Video 1** of the Insurance Dashboard project, where Microsoft SQL Server and SQL Server Management Studio (SSMS) were installed.
+
+What I Did in This Step
+
+- Downloaded **Microsoft SQL Server 2022 Developer Edition** from the official Microsoft website.
+- Chose **Basic installation type** for simplicity.
+- Installed **SQL Server Management Studio (SSMS)** for writing and executing SQL queries.
+- Launched SSMS and connected to the local SQL Server instance using **Windows Authentication**.
+- Verified successful setup by opening a new query window in SSMS.
+
+
+Tools & Versions
+
+Tool                     Version / Details                    
+
+SQL Server               2019 Developer Edition                 
+ SQL Server Management Studio (SSMS) | Latest version (from Microsoft site) 
+Installation Type        Basic                                 
+Authentication Method   Windows Authentication                
+
+Download Links
+
+- SQL Server 2022 Developer Edition](https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+- SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms
+
+---
+
+ Notes
+
+- Make sure to **select “Database Engine”** as the server type while connecting.
+- In real-world companies, server credentials are provided to you. But for this project, a local setup is used.
