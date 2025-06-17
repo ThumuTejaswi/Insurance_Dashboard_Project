@@ -1,0 +1,30 @@
+steps:
+
+1. Microsoft SQL Server Setup
+
+- Opened SQL Server Management Studio (SSMS).
+- Connected to the local server: `DESKTOP-TS7OTC2\Tejaswi` (you can use your local server inplace of my local sever) using Windows Authentication. 
+
+
+2. Created the Project Database
+
+- Open new query and write the command as
+- CREATE DATABASE Insurancedb;
+- Execute the command now expand the databases at the left side then u will see a database is created as insurancedb if you dont see it then click on refresh button
+
+
+3.Imported Dataset into SQL Server
+
+- Now right click on insurancedb u will see multiple options click on tasks and then click on import flatfile
+- click on next and it then it will ask location of file to be imported
+-create a floder in your pc and download InsuranceData (1).csv
+-select the floder from your pc as like Screenshot_Connect_SSMS.png
+-click on next 
+-Changed the data type of PolicyNumber to VARCHAR as it was wrongly detected as MONEY.
+-click on next
+-click on next and after the data has imported sucessfully click on close
+-right click on insurancedb u will see dbo.insurance data 
+
+- to import it into the table use the command 
+SELECT * FROM dbo.InsuranceData;
+- and click on execute then u will see the data 
