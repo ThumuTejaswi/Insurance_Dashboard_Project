@@ -27,7 +27,6 @@ Step 3: Import the Dataset into SQL Server
       2.Go to: Tasks → Import Flat File.
       3.Click Next, and browse for your dataset file:
           InsuranceData.csv (save it in an accessible folder).
-      [Download Insurance Dataset CSV](./Importing%20data%20to%20MSSQL%20Server/InsuranceData.csv)
 
       4.While importing:
           Update PolicyNumber column data type from money to VARCHAR (or nvarchar) manually.
