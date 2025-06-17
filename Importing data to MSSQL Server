@@ -1,30 +1,38 @@
-steps:
+# Importing Data to Microsoft SQL Server
 
-1. Microsoft SQL Server Setup
+This step involves creating a SQL Server database and importing the insurance dataset for further analysis and reporting in Power BI.
+---
 
-- Opened SQL Server Management Studio (SSMS).
-- Connected to the local server: `DESKTOP-TS7OTC2\Tejaswi` (you can use your local server inplace of my local sever) using Windows Authentication. 
+Step 1: Connect to SQL Server
+
+      - Open **SQL Server Management Studio (SSMS)**.
+      - Connect to your local server instance using **Windows Authentication**.
+      - Example Server Name: `DESKTOP-TS7OTC2\Tejaswi` (replace with your local server name).
+      
+      >  *Reference:*
+      > ![Connect to SSMS](./Screenshot_Connect_SSMS.png)
 
 
-2. Created the Project Database
+Step 2: Create the Project Database
 
-- Open new query and write the command as
-- CREATE DATABASE Insurancedb;
-- Execute the command now expand the databases at the left side then u will see a database is created as insurancedb if you dont see it then click on refresh button
+      1. Open a new query window.
+      2. Run the following SQL command:
+             CREATE DATABASE Insurancedb;
+      3.Refresh the left-side Object Explorer to confirm the database is created.
 
 
-3.Imported Dataset into SQL Server
+Step 3: Import the Dataset into SQL Server
 
-- Now right click on insurancedb u will see multiple options click on tasks and then click on import flatfile
-- click on next and it then it will ask location of file to be imported
--create a floder in your pc and download InsuranceData (1).csv
--select the floder from your pc as like Screenshot_Connect_SSMS.png
--click on next 
--Changed the data type of PolicyNumber to VARCHAR as it was wrongly detected as MONEY.
--click on next
--click on next and after the data has imported sucessfully click on close
--right click on insurancedb u will see dbo.insurance data 
+      1.Right-click on the newly created Insurancedb.
+      2.Go to: Tasks → Import Flat File.
+      3.Click Next, and browse for your dataset file:
+          InsuranceData_1.csv (save it in an accessible folder).
+      4.While importing:
+          Update PolicyNumber column data type from money to VARCHAR (or nvarchar) manually.
+      5.Click Next, then Finish, and Close once the import is successful.
 
-- to import it into the table use the command 
-SELECT * FROM dbo.InsuranceData;
-- and click on execute then u will see the data 
+Step 4: Query the Imported Table
+      1.After importing, run the command:
+          SELECT * FROM dbo.InsuranceData;
+      2.You should now see all the rows (10,004 records) successfully imported into the table.
+
