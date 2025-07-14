@@ -1,0 +1,49 @@
+After loading and preparing the data in Power BI, the next step was to design an interactive and insightful dashboard using different visuals.
+
+1. Added Title & Slicers
+    - **Title Text Box**: “PRISM INSURANCE PVT. LTD.”
+    - **Slicers Used**:
+    - Policy Number
+    - Claim Number
+    - Customer ID  
+These slicers allow users to filter data across the entire report.
+
+
+2. KPI Cards
+    - **Premium Amount**
+    - **Coverage Amount**
+    - **Claim Amount**  
+These KPIs show a quick overview of the company’s performance in terms of revenue and payouts.
+
+
+3. Multi-Row Card
+    - Displays total number of policyholders by gender:
+    - **Male**: 5003
+    - **Female**: 5001
+
+
+4. Bar Chart
+    **Premium Amount by Policy Type**  
+    - Shows how much premium is collected from each policy type (e.g., Travel, Health, Auto, etc.).
+
+
+5. Column Chart
+    **Number of Claims by Claim Status**  
+    - Categories: Rejected, Settled, Pending  
+    - Helps track the current status of all claims filed.
+
+
+6. Line Chart
+    **Claim Amount by Age Group**  
+    - Age groups: Young, Adult, Elder  
+    - Shows which age group is filing more claims and the total claim amount.
+
+
+7. Donut Chart
+    **Count of Active/Inactive Policies**  
+    - Helps visualize customer engagement and policy activity status.
+
+
+8. Matrix Table
+    **Claim Summary by Policy Type & Status**  
+    - Displays total values of pending, rejected, and settled claims for each policy type
