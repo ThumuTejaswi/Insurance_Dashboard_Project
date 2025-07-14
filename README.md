@@ -11,7 +11,7 @@ It provides insights into:
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 - Microsoft SQL Server (Data storage)
 - SSMS (Data import and connection)
 - Microsoft Power BI (Dashboard design and analysis)
@@ -41,7 +41,7 @@ Insurance_Dashboard_Project/
 
 
 
-## 🧠 Key Insights
+##  Key Insights
 
 - **Travel and Health** policies generate the highest premiums.
 - **Adults and Elders** file the most claims — focus areas for risk.
@@ -50,13 +50,9 @@ Insurance_Dashboard_Project/
 
 ---
 
-## 💡 What I Learned
+## what I Learned
 
 - How to import and model data using SQL Server and Power BI.
 - Designing interactive dashboards with slicers, cards, and visuals.
 - Applying data transformation using Power Query.
 - Deriving business insights using DAX and storytelling visuals.
-
-
-## 📁 View the Full Dashboard
-👉 [Click here to open the dashboard screenshot](https://github.com/ThumuTejaswi/Insurance_Dashboard_Project)
