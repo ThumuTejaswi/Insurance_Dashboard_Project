@@ -1,0 +1,41 @@
+1. Open Power BI
+Launch Power BI Desktop
+
+Open a blank report
+
+2. Import Data
+If you're using SQL Server:
+
+Click on Get Data > SQL Server
+
+Enter the server name and database name
+
+Choose how you want to import (DirectQuery/Import)
+
+If your data is in Excel:
+
+Click Get Data > Excel
+
+Select your Excel file and choose the table/sheet
+
+3. Load the Data
+Once you select the data, click Load
+
+You will see tables added to the Fields pane on the right
+
+4. Transform Data (Optional but Recommended)
+Click Transform Data to open Power Query Editor
+
+Check for:
+
+Null values
+
+Incorrect data types
+
+Extra rows/columns
+
+Formatting issues
+
+If there are no changes to be made, click Close & Apply
+
+If there are changes, modify them → then click Close & Apply after editing.
