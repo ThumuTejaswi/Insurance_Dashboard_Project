@@ -56,3 +56,6 @@ Insurance_Dashboard_Project/
 - Designing interactive dashboards with slicers, cards, and visuals.
 - Applying data transformation using Power Query.
 - Deriving business insights using DAX and storytelling visuals.
+
+Download the full Power BI project file:  
+https://github.com/ThumuTejaswi/Insurance_Dashboard_Project/blob/main/insurance%20dashboard.pbix
