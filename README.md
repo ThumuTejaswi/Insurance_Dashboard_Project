@@ -59,4 +59,4 @@ Insurance_Dashboard_Project/
 
 
 ## 📁 View the Full Dashboard
-👉 [Click here to open the dashboard screenshot](https://github.com/ThumuTejaswi/Insurance_Dashboard_Pro
+👉 [Click here to open the dashboard screenshot](https://github.com/ThumuTejaswi/Insurance_Dashboard_Project)
